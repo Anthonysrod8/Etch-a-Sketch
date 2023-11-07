@@ -1,23 +1,22 @@
-:root {
-    --grid-cols: 1;
-    --grid-rows: 1;
-}
+
 
 #container {
-    display: grid;
-    width: 50%;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
-}
-
-.grid-item {
-    padding: 1em;
-    border: 1px solid black;
-    text-align: center;
-}
-
-.grid-item:hover {
-    background-color: blue;
+    display: flex;
+    
 }
 
 
+.newContainer {
+    display: inherit;
+}
+
+.rows {
+    border: 1px solid rgb(184, 183, 183);
+
+}
+
+.rowBox {
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgb(184, 183, 183);
+}
